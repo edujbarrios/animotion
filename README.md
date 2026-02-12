@@ -1,15 +1,7 @@
 # Animotion
 
-```
-   ___          _                 __  _           
-  / _ | ___    (_)_ _  ___  ___  / /_(_)__  ___   
- / __ |/ _ \  / /  ' \/ _ \/ _ \/ __/ / _ \/ _ \  
-/_/ |_/_//_/ /_/_/_/_/\___/\___/\__/_/\___/_//_/  
-                                                   
-```
-***Transform your boring progress bars into exciting terminal animations***
+[Animotion](https://github.com/edujbarrios/animotion)  ia s a creative alternative to [tqdm](https://github.com/tqdm/tqdm) with stunning terminal animations for process tracking.
 
-This tool is a creative alternative to [tqdm](https://github.com/tqdm/tqdm) with stunning terminal animations for process tracking.
 ---
 
 ## Features
@@ -308,3 +300,4 @@ animate(style="wave", speed=0.05)
 animate(style="spinner", speed=0.15)
 ```
 ---
+
