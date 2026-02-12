@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "animotion"
+version = "1.0.0"
+description = "A creative alternative to tqdm with terminal animations for process tracking"
+readme = "README.md"
+authors = [{name = "Eduardo J. Barrios"}]
+license = {text = "MIT"}
+maintainers = [{name = "Eduardo J. Barrios"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+keywords = ["progress", "progressbar", "animation", "terminal", "cli", "tqdm", "alternative"]
+requires-python = ">=3.7"
+dependencies = [
+    "colorama>=0.4.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.0",
+    "black>=21.0",
+    "flake8>=3.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/edujbarrios/animotion"
+Repository = "https://github.com/edujbarrios/animotion"
+"Bug Tracker" = "https://github.com/edujbarrios/animotion/issues"
