@@ -1,6 +1,6 @@
 # Animotion
 
-[Animotion](https://github.com/edujbarrios/animotion)  ia s a creative alternative to [tqdm](https://github.com/tqdm/tqdm) with stunning terminal animations for process tracking.
+[Animotion](https://github.com/edujbarrios/animotion)  ia a creative alternative to [tqdm](https://github.com/tqdm/tqdm) with stunning terminal animations for process tracking.
 
 ---
 
@@ -300,4 +300,5 @@ animate(style="wave", speed=0.05)
 animate(style="spinner", speed=0.15)
 ```
 ---
+
 
